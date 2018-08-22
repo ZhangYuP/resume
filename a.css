@@ -1,5 +1,6 @@
 body{
     background-color: #efefef;
+    color: #3d4451;
 }
 a{
     color: inherit;
@@ -13,6 +14,12 @@ hr{
     height: 0;
     border: none;
     border-top: 1px solid #dedede;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
 }
 .clearfix::after{
     content: "";
@@ -79,11 +86,11 @@ hr{
     background-color: rgba(0,0,0,0.8);
 }
 .userCard{
-    border: 1px solid red;
     max-width: 940px;
     margin-left: auto;
     margin-right: auto; 
     background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
 .userCard .welcome{
     display: inline-block;
@@ -154,3 +161,76 @@ hr{
     fill: white;
     vertical-align: top;
 }
+body > main{
+    margin-top: -350px;
+}
+body > main .downloadResume-wrapper{
+    text-align: center;
+}
+body > main .downloadResume{
+    font-size: 14px;
+    line-height: 16px;
+    padding: 21px 55px;
+    border: 1px solid #cdcfd1;
+    display: inline-block;
+    border-radius: 2px;
+    font-weight: bold;
+    margin: 30px 0;
+    transition: box-shadow 0.3s;
+}
+body > main .downloadResume:hover{
+    box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.18), 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+body > main .selfIntroduction{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    font-family: youyuan;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+section.skills{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 60px;
+}
+section.skills > h2{
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
+}
+section.skills h3{
+    font-size: 14px;
+    line-height: 1.1;
+    padding-right: 40px;
+}
+section.skills > ol{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    padding: 40px 50px 10px;
+    margin-top: 30px;
+}
+section.skills > ol > li{
+    float: left;
+    width: 48%;
+}
+section.skills > ol > li:nth-child(even){
+    float: right;
+}
+section.skills .processBar{
+    height: 5px;
+    background: #fae1e1;
+    border-radius: 2px;
+    margin: 4px 0 40px;
+}
+section.skills .process{
+    height: 100%;
+    background: #e6686a;
+    width: 70%;
+    border-radius: 2px;
+}
+
