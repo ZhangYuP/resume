@@ -5,16 +5,41 @@
     <link rel="stylesheet" href="./main.css">
     <script src="//at.alicdn.com/t/font_803095_vv0844te7d.js"></script>
     <style type="text/css">
+      .loading{ width: 200px; height: 200px; position: relative; }
+      
+      .loading::before,.loading::after{ content: ''; position: absolute; width: 10px; height: 10px; background: black; border-radius: 50%; top: 0; left: 0; bottom: 0; right: 0; margin: auto; animation: s 1.5s infinite; }
+      .loading::after{ animation-delay: 0.75s;}
+      
+      @keyframes s{
+        0%{ width: 0; height: 0; opacity: 1; }
+        100%{ width: 100px; height: 100px; opacity: 0; }
+      }
+
       .icon {
          width: 1em; height: 1em;
          vertical-align: -0.15em;
          fill: currentColor;
          overflow: hidden;
       }
+      .site-welcome{
+        display: none;
+        position: fixed;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: #888;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+      }
+      .site-welcome.active{
+        display: flex;
+      }
   </style>
   </head>
 
   <body>
+    <div id="siteWelcome" class="site-welcome active">
+      <div class="loading"></div>
+    </div>
     <div class="topNavBar">
       <div class="topNavBar-inner clearfix">
         <a class="logo" href="#" alt="logo" style="float: left;">
@@ -213,5 +238,8 @@
         </div>
       </div>
     </section>
+    <script>
+      siteWelcome.classList.remove('active')
+    </script>
   </body>
 </html>
