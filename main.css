@@ -6,15 +6,9 @@ ul,ol{ list-style: none; }
 h1,h2,h3,h4,h5,h6{ font-weight: normal; }
 .clearfix::after{ content: ''; display: block; clear: both; }
 
-[data-x].offset{
-    transform: translateY(100px);
-}
-[data-x]{
-    transform: translateY(0);
-    transition: all 0.5s;
-}
-.icon {
-    width: 1em; height: 1em; vertical-align: -0.15em; fill: currentColor; overflow: hidden; }
+[data-x].offset{ transform: translateY(100px); }
+[data-x]{ transform: translateY(0); transition: all 0.5s; }
+.icon { width: 1em; height: 1em; vertical-align: -0.15em; fill: currentColor; overflow: hidden; }
 .topNavBar{ padding: 20px 0; position: fixed; top: 0; left: 0; width: 100%; 
     transition: all 0.5s; color: #b7b7b7; }
 .topNavBar.sticky{ background: #fff; padding: 10px 0; z-index: 1;
