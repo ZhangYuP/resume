@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>方方的个人简历</title>
+    <title>张玉鹏的个人简历</title>
     <script src="//at.alicdn.com/t/font_803095_vv0844te7d.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
     <link rel="stylesheet" href="./main.css">
@@ -10,8 +10,8 @@
   <body>
     <div id="topNavBar" class="topNavBar">
       <div class="topNavBar-inner clearfix">
-        <a class="logo" href="#" alt="logo" style="float: left;">
-          <span class="rs">RS</span><span class="card">card</span>
+        <a class="logo" href="#" alt="logo">
+          <span class="surname">Z</span><span class="given-name">YP</span>
         </a>
         <nav class="menu" style="float: right;">
           <ul class="clearfix">
@@ -20,7 +20,7 @@
             </li>
             <li>
               <a href="#siteSkills">技能</a>
-            </li>              
+            </li>
             <li>
               <a href="#siteWorks">作品</a>
               <ul class="submenu">
@@ -63,18 +63,18 @@
             <span class="welcome">Hello
               <span class="triangle"></span>
             </span>
-            <h1>方应杭</h1>
+            <h1>张玉鹏</h1>
   	        <p>前端开发工程师</p>
       	    <hr>
 	          <dl class="clearfix">
 	            <dt>年龄</dt>
-	            <dd>18</dd>
+	            <dd>27</dd>
 	            <dt>所在城市</dt>
-      	      <dd>北京</dd>
+      	      <dd>南京</dd>
 	            <dt>邮箱</dt>
-	            <dd>123@zzz.com</dd>
+	            <dd>zyp5318@qq.com</dd>
 	            <dt>手机</dt>
-	            <dd>1234567890</dd>
+	            <dd>18205084006</dd>
 	          </dl>
           </div>
         </div>
@@ -165,7 +165,7 @@
           </h3>
           <div class="progressBar">
             <div class="progress" style="width: 70%;">
-  
+
             </div>
           </div>
         </li>
@@ -175,7 +175,7 @@
           </h3>
           <div class="progressBar">
             <div class="progress" style="width: 80%;">
-  
+
             </div>
           </div>
         </li>
@@ -203,16 +203,17 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
-      
+
     </section>
     <section class="message">
       <h2>留言</h2>
       <ol id="messageList"></ol>
+      <ol id="pages" class="pages"></ol>
       <form id="postMessageForm" style="width: 700px; margin: 50px auto;">
-        <label for="">姓名</label>
-        <input type="text" name="name">
-        <label for="">内容</label>
-        <input type="text" name="content">
+        <label for="name">姓名</label>
+        <input type="text" name="name" id="name">
+        <label for="content">内容</label>
+        <input type="text" name="content" id="content">
         <input type="submit" value="提交">
       </form>
     </section>
