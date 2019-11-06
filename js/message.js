@@ -78,7 +78,7 @@
     saveMessage() {
       let myForm = this.form
       let name = myForm.querySelector('input[name=name]').value
-      let content = myForm.querySelector('input[name=content]').value
+      let content = myForm.querySelector('textarea').value
       this.model.save(name, content).then(message => {
         this.total += 1
         if (this.total % 10 !== 1 && this.pageList.lastChild.classList.contains('active')) {

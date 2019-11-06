@@ -14,7 +14,13 @@
           this.deactive()
         }
       })
-      //箭头函数没有 this ，内外的 this 不变
+      window.onload = (x) => {
+        if (window.scrollY > 0) {
+          this.active()
+        } else {
+          this.deactive()
+        }
+      }
     },
     active: function(){
       this.view.classList.add('sticky')
