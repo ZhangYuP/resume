@@ -14,7 +14,7 @@
           this.deactive()
         }
       })
-      window.onload = (x) => {
+      window.onload = () => {
         if (window.scrollY > 0) {
           this.active()
         } else {

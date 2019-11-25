@@ -10,4 +10,5 @@
   weixin.addEventListener('click', (e)=>{
     e.stopPropagation()
   })
+
 }.call()

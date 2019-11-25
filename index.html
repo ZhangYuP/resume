@@ -22,6 +22,9 @@
               <a href="#siteSkill">技能</a>
             </li>
             <li>
+              <a href="#siteExperience">经历</a>
+            </li>
+            <li>
               <a href="#sitePortfolio">作品</a>
               <ul class="submenu">
                 <li><a href="https://zhangyup.github.io/random-music/" target="_blank">随机音乐</a></li>
@@ -33,13 +36,10 @@
               </ul>
             </li>
             <li>
-              <a href="#siteExperience">经历</a>
-            </li>
-            <li>
               <a href="#siteMessage">留言</a>
             </li>
             <li>
-              <a href="#">下载</a>
+              <a href="./张玉鹏的个人简历.pdf" target="_blank" download>下载</a>
             </li>
           </ul>
         </nav>
@@ -57,9 +57,10 @@
             </span>
           </div>
           <div class="text">
-            <a class="downloadResume" href="./resume.pdf" target="_blank" download>下载PDF简历</a>
+            <a id="downloadResume" href="./张玉鹏的个人简历.pdf" target="_blank" download>下载PDF简历</a>
+            <a id="openHtml" href="https://zhangyup.github.io/resume/index.html" target="_blank" title="网页版简历">查看网页版简历</a>
             <h1>张玉鹏</h1>
-  	        <p>前端开发工程师</p>
+  	        <p>应聘前端开发工程师职位。目前离职状态，可立即到岗。</p>
       	    <hr>
 	          <dl class="clearfix">
 	            <dt>年龄</dt>
@@ -75,6 +76,7 @@
 	            <dt>手机</dt>
 	            <dd>18205084006</dd>
 	          </dl>
+            <img src="./img/weixin.jpg" alt="微信二维码">
           </div>
         </div>
       <footer class="media">
@@ -161,11 +163,33 @@
       </ol>
     </section>
 
+    <section data-x id="siteExperience" class="experience">
+      <h2>经历</h2>
+      <ol>
+        <li>
+          <h3>教育经历</h3>
+          <dl class="clearfix">
+            <dt>2010.09 ~ 2014.06</dt>
+            <dd>在中南大学本科土木工程专业学习。</dd>
+          </dl>
+        </li>
+        <li>
+          <h3>工作经历</h3>
+          <dl class="clearfix">
+            <dt>2014.07 ~ 2014.10</dt>
+            <dd>在中建八局第三建设有限公司，南京证大喜玛拉雅中心项目从事施工员工作。</dd>
+            <dt>2014.12 ~ 2018.08</dt>
+            <dd>在广东省电信规划设计院有限公司南京分公司，从事通信工程土建结构设计工作。</dd>
+          </dl>
+        </li>
+      </ol>
+    </section>
+
     <section data-x id="sitePortfolio" class="portfolio">
       <h2>作品</h2>
       <ol>
         <li class="clearfix">
-          <img src="./img/works/randommusic.jpg" alt="随机音乐" width="300px">
+          <img src="./img/works/randommusic.jpg" alt="随机音乐" width="300px" height="169px">
           <div class="description">
             <h3>随机音乐</h3>
             <span class="showLink">
@@ -181,7 +205,7 @@
           </div>
         </li>
         <li class="clearfix">
-        <img src="./img/works/cnode.jpg" alt="仿cnode社区" width="300px">
+        <img src="./img/works/cnode.jpg" alt="仿cnode社区" width="300px" height="169px">
           <div class="description">
             <h3>仿cnode社区</h3>
             <span class="showLink">
@@ -196,7 +220,7 @@
           </div>
         </li>
         <li class="clearfix">
-          <img src="./img/works/rocui.jpg" alt="鹏UI" width="300px">
+          <img src="./img/works/rocui.jpg" alt="鹏UI" width="300px" height="169px">
           <div class="description">
             <h3>鹏UI</h3>
             <span class="showLink">
@@ -212,7 +236,7 @@
           </div>
         </li>
         <li class="clearfix">
-          <img src="./img/works/simpletodo.jpg" alt="极简清单" width="300px">
+          <img src="./img/works/simpletodo.jpg" alt="极简清单" width="300px" height="169px">
           <div class="description">
             <h3>极简清单</h3>
             <span class="showLink">
@@ -227,7 +251,7 @@
           </div>
         </li>
         <li class="clearfix">
-          <img src="./img/works/canvas.jpg" alt="canvas画板" width="300px">
+          <img src="./img/works/canvas.jpg" alt="canvas画板" width="300px" height="169px">
           <div class="description">
             <h3>canvas画板</h3>
             <span class="showLink">
@@ -242,7 +266,7 @@
           </div>
         </li>
         <li class="clearfix">
-          <img src="./img/works/pikachu.jpg" alt="画一只皮卡丘" width="300px">
+          <img src="./img/works/pikachu.jpg" alt="画一只皮卡丘" width="300px" height="169px" >
           <div class="description">
             <h3>画一只皮卡丘</h3>
             <span class="showLink">
@@ -255,28 +279,6 @@
               标签内的代码，将其依次展示在页面上，并依次写入 <strong>style</strong> 标签内，以使 CSS 生效。此外，还增加了代码高亮效果，并实现了调速功能。
             </p>
           </div>
-        </li>
-      </ol>
-    </section>
-
-    <section data-x id="siteExperience" class="experience">
-      <h2>经历</h2>
-      <ol>
-        <li>
-          <h3>教育经历</h3>
-          <dl class="clearfix">
-            <dt>2010.09 ~ 2014.06</dt>
-            <dd>在中南大学本科土木工程专业学习。</dd>
-          </dl>
-        </li>
-        <li>
-          <h3>工作经历</h3>
-          <dl class="clearfix">
-            <dt>2014.07 ~ 2014.10</dt>
-            <dd>在中建八局三公司，证大喜马拉雅项目从事施工员工作。</dd>
-            <dt>2014.12 ~ 2018.08</dt>
-            <dd>在广东省电信规划设计院，从事通信工程土建结构设计工作。</dd>
-          </dl>
         </li>
       </ol>
     </section>
@@ -303,5 +305,6 @@
     <script src="./js/smoothly-navigation.js"></script>
     <script src="./js/message.js"></script>
     <script src="./js/popover.js"></script>
+
   </body>
 </html>
