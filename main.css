@@ -9,7 +9,7 @@ strong{color: #e6686a;}
 
 [data-x].offset{ transform: translateY(100px); }
 [data-x]{ transform: translateY(0); transition: all 0.5s; }
-.icon { width: 1em; height: 1em; vertical-align: -0.15em; fill: currentColor; overflow: hidden; }
+.icon { width: 1em; height: 1em; overflow: hidden; }
 .topNavBar{ padding: 20px 0; position: fixed; top: 0; left: 0; width: 100%; z-index: 1;
     transition: all 0.5s; color: #b7b7b7; }
 .topNavBar.sticky{ background: #fff; padding: 10px 0; box-shadow: 0 0 10px rgba(0,0,0,0.25); color: #3d4451; }
@@ -39,7 +39,7 @@ strong{color: #e6686a;}
 .topNavBar li.active .submenu{ height: 174px; transition: height 0.3s linear;}
 .topNavBar .submenu>li{ white-space: nowrap; padding: 5px; font-size: 14px;}
 .topNavBar .submenu > li:hover{background: #e6686a; color: #ffffff;}
-.topNavBar .logo{ font-family: 'Arial Black'; font-size: 24px; padding-top: 3px; padding-bottom: 4px; }
+.topNavBar .logo{ display: inline-block; font-family: 'Arial Black'; font-size: 24px; padding-top: 3px; padding-bottom: 4px; margin-left: 15px;}
 .topNavBar .logo .family-name{ color: #e6686a; }
 .topNavBar .logo .given-name{ color: #9a9da2; }
 
@@ -102,25 +102,29 @@ section.experience dl dt { width: 30%; font-weight: bold; }
 section.experience dl dd { width: 70%; }
 
 section.message{padding-bottom: 30px;}
-section.message ol#messageList{ margin-top: 5px; border-top: 1px solid #ddd; }
-section.message ol#messageList > li{ padding: 16px; border-bottom: 1px solid #ddd; }
+section.message ol#messageList{ margin-top: 5px; border-top: 1px solid #dedede; }
+section.message ol#messageList > li{ padding: 16px; border-bottom: 1px solid #dedede; }
 section.message ol#pages{ text-align: center; }
-section.message ol#pages > li{ border: 1px solid #ddd; border-radius: 2px; padding: 2px 8px; margin: 16px 8px;
+section.message ol#pages > li{ border: 1px solid #cdcfd1; border-radius: 2px; padding: 2px 8px; margin: 16px 8px;
     display: inline-block; cursor: pointer; }
-section.message ol#pages > li.active{ background: #e6686a; border-color: #e6686a; color: #ffffff;}
-section.message form { padding: 30px; margin: 20px auto; width: 480px; text-align: center; border-radius: 4px;
-    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); background-color: #efefef;}
-section.message form > label { margin: 5px 0; padding: 4px; vertical-align: middle; height: 30px; font-size: 16px; }
-section.message form #name{ margin: 5px 0; padding: 4px; vertical-align: middle; width: 320px; height: 32px; font-size: 16px;
-  font-family: "Microsoft YaHei"; border: 1px solid #dddddd; border-radius: 4px; box-shadow: 0 13px 10px -15px #ccc inset; }
+section.message ol#pages > li:hover { box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 3px 4px 0 rgba(0, 0, 0, 0.15); }
+section.message ol#pages > li.active{ background: #e6686a; border-color: #e6686a; color: #ffffff; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 3px 4px 0 rgba(0, 0, 0, 0.15);}
+section.message form { padding: 30px; text-align: center; border-radius: 4px;
+     }
+section.message form .inputWrapper { margin-left: 92px; }
+section.message form  label { margin: 5px 0; padding: 4px; vertical-align: middle; height: 30px; font-size: 16px; }
+section.message form #name{ margin: 5px 0; padding: 4px; vertical-align: middle; width: 320px; height: 32px; font-size: 16px; color: #3d4451;
+  font-family: "Microsoft YaHei"; border: 1px solid #cdcfd1; border-radius: 4px; box-shadow: 0 13px 10px -15px rgba(0, 0, 0, 0.18) inset; }
 section.message form #name::-webkit-input-placeholder{color: #999; font-size: 16px; font-family: "Microsoft YaHei"; }
-section.message form #content{ margin: 5px 0; padding: 4px; vertical-align: middle; width: 320px; height: 80px; font-size: 16px;
-  font-family: "Microsoft YaHei"; border: 1px solid #dddddd; border-radius: 4px; box-shadow: 0 13px 10px -15px #ccc inset; resize: none;}
+section.message form #content{ margin: 5px 0; padding: 4px; vertical-align: middle; width: 320px; height: 73px; font-size: 16px; color: #3d4451;
+  font-family: "Microsoft YaHei"; border: 1px solid #cdcfd1; border-radius: 4px; box-shadow: 0 13px 10px -15px rgba(0, 0, 0, 0.18) inset; resize: none;}
 section.message form #content::-webkit-input-placeholder {color: #999; font-size: 16px; font-family: "Microsoft YaHei"; }
-section.message form .formButton{ margin: 10px 16px 0; padding: 4px 8px; height: 30px; font-size: 16px;
-  font-family: "Microsoft YaHei"; border: none; border-radius: 4px; background: #e6686a; cursor: pointer; color: #ffffff;}
-
-
+section.message form .warning{ visibility: hidden; color: red; vertical-align: middle; padding: 4px; font-size: 14px; }
+section.message form .warning svg{ fill:red; vertical-align: -2px; }
+section.message form .formButton { margin: 10px 16px 0; padding: 0 8px; height: 30px; font-size: 16px; line-height: 28px;
+  font-family: "Microsoft YaHei"; border-radius: 4px; cursor: pointer; background: #efefef; border: 1px solid #cdcfd1; color: #3d4451; }
+section.message form .formButton:hover { box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 3px 4px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid #e6686a; background: #e6686a; color: #ffffff;}
 
 @media print {
   body{background: #ffffff;}

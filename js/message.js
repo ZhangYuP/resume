@@ -74,11 +74,29 @@
           this.loadMessages(page)
         }
       })
+      let myForm = this.form
+      let warnings = myForm.getElementsByClassName('warning')
+      let input = myForm.querySelector('#name')
+      let textarea = myForm.querySelector('#content')
+      input.onclick = ()=>{
+        warnings[0].style.visibility = 'hidden'
+      }
+      textarea.onclick = ()=>{
+        warnings[1].style.visibility = 'hidden'
+      }
     },
     saveMessage() {
       let myForm = this.form
       let name = myForm.querySelector('input[name=name]').value
       let content = myForm.querySelector('textarea').value
+      let warnings = myForm.getElementsByClassName('warning')
+      if(!name.trim()){
+        warnings[0].style.visibility = 'visible'
+        return
+      }else if(!content.trim()){
+        warnings[1].style.visibility = 'visible'
+        return
+      }
       this.model.save(name, content).then(message => {
         this.total += 1
         if (this.total % 10 !== 1 && this.pageList.lastChild.classList.contains('active')) {

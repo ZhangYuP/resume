@@ -3,7 +3,7 @@
   <head>
     <title>张玉鹏的个人简历</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <script src="//at.alicdn.com/t/font_803095_gqy3hucg1if.js"></script>
+    <script src="//at.alicdn.com/t/font_803095_qubrrj6pc5.js"></script>
     <link rel="stylesheet" href="./main.css">
   </head>
 
@@ -289,8 +289,27 @@
         <ol id="messageList"></ol>
         <ol id="pages"></ol>
         <form>
-          <label for="name">姓名</label><input type="text" name="name" id="name" placeholder="请输入姓名"><br>
-          <label for="content">内容</label><textarea name="content" id="content" placeholder="请输入留言"></textarea><br>
+          <div class="inputWrapper">
+            <label for="name">姓名</label>
+            <input type="text" name="name" id="name" placeholder="请输入姓名">
+            <span id="nameTip" class="warning">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-warning"></use>
+              </svg>
+              请输入您的姓名
+            </span>
+            <br>
+            <label for="content">内容</label>
+            <textarea name="content" id="content" placeholder="请输入留言"></textarea>
+            <span id="contentTip" class="warning">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-warning"></use>
+              </svg>
+              请输入留言内容
+            </span>
+            <br>
+          </div>
+
           <input type="reset" class="formButton" value="重置">
           <input type="submit" class="formButton" value="提交">
         </form>
