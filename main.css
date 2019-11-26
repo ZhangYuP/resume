@@ -109,8 +109,7 @@ section.message ol#pages > li{ border: 1px solid #cdcfd1; border-radius: 2px; pa
     display: inline-block; cursor: pointer; }
 section.message ol#pages > li:hover { box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 3px 4px 0 rgba(0, 0, 0, 0.15); }
 section.message ol#pages > li.active{ background: #e6686a; border-color: #e6686a; color: #ffffff; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 3px 4px 0 rgba(0, 0, 0, 0.15);}
-section.message form { padding: 30px; text-align: center; border-radius: 4px;
-     }
+section.message form { padding: 30px; text-align: center; }
 section.message form .inputWrapper { margin-left: 92px; }
 section.message form  label { margin: 5px 0; padding: 4px; vertical-align: middle; height: 30px; font-size: 16px; }
 section.message form #name{ margin: 5px 0; padding: 4px; vertical-align: middle; width: 320px; height: 32px; font-size: 16px; color: #3d4451;
