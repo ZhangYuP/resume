@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df855d1e-02eb-4996-a70a-74cec0a4fff6" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/张玉鹏的个人简历.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端-张玉鹏的个人简历.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/前端-张玉鹏的个人简历.pdf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -216,7 +214,7 @@
       <workItem from="1574780929132" duration="11708000" />
       <workItem from="1574950131976" duration="1078000" />
       <workItem from="1575356291002" duration="832000" />
-      <workItem from="1575358457276" duration="5396000" />
+      <workItem from="1575358457276" duration="5707000" />
     </task>
     <task id="LOCAL-00001" summary="添加专业信息">
       <created>1575362089910</created>
@@ -232,19 +230,33 @@
       <option name="project" value="LOCAL" />
       <updated>1575364529386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改简历名称">
+      <created>1575364856631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575364856631</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改简历名称">
+      <created>1575365028897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575365028897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113974000" />
+    <option name="totallyTimeSpent" value="114285000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -269,7 +281,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加专业信息" />
     <MESSAGE value="防止代码注入 Message 输入框" />
-    <option name="LAST_COMMIT_MESSAGE" value="防止代码注入 Message 输入框" />
+    <MESSAGE value="修改简历名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改简历名称" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/init-swiper.js" />
