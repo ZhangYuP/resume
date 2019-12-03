@@ -56,17 +56,17 @@ main.userCard .welcome .triangle{ display: block; border: 10px solid transparent
     border-top-width: 0; border-left-color: #e6686a; position: absolute; left: 4px; top: 100%; }
 main.userCard .picture{ float: left; position: relative;}
 main.userCard .picture img{ vertical-align: top; }
-main.userCard .text{ float: left; margin-left: 80px; max-width: 460px; position: relative;}
+main.userCard .text{ float: left; margin-left: 80px; max-width: 500px; position: relative;}
 main.userCard .text #openHtml { display: none; }
 main.userCard .text #downloadResume { font-size: 14px; line-height: 16px; padding: 15px 40px; border: 1px solid #cdcfd1; border-radius: 4px; font-weight: bold;
-    position: absolute; top: 0; right: 0; }
+    position: absolute; top: -5px; right: 0; }
 main.userCard .text #downloadResume:hover { box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
-main.userCard .text h1 { margin-bottom: 15px; font-weight: 550;}
+main.userCard .text h1 { margin-bottom: 20px; font-weight: 600;}
 main.userCard .text hr{ margin: 15px 0; }
 main.userCard .text dl dt,.text dl dd{ float: left; padding: 5px 0; }
-main.userCard .text dl dt{ width: 30%; font-weight: bold; }
-main.userCard .text dl dd{ width: 70%; }
-main.userCard .text img { display: none; position: absolute; width: 100px; height: 100px; bottom: -2px; right: -2px;}
+main.userCard .text dl dt{ width: 12%; font-weight: bold; }
+main.userCard .text dl dd{ width: 38%; }
+main.userCard .text img { display: none; position: absolute; width: 122px; height: 122px; bottom: 1px; right: -7px;}
 main.userCard .media{ background-color: #e6686a; text-align: center; }
 main.userCard .media a{ display: inline-block; border-radius: 50%; width: 50px; line-height: 30px; padding: 10px; margin: 10px 20px; }
 main.userCard .media a:hover{ background-color: #d05d60; }
@@ -134,17 +134,18 @@ section.message form .formButton:hover { box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0
 
   main.userCard{margin-top: 10px;}
   main.userCard .welcome{display: none;}
-  main.userCard .picture img{width: 200px; height: 200px;}
+  main.userCard .picture img{width: 230px; height: 230px;}
   main.userCard .text #downloadResume{display: none;}
-  main.userCard .text { max-width: 560px; }
+  main.userCard .text h1{ margin-bottom: 15px; }
+  main.userCard .text { max-width: 530px; }
   main.userCard .text #openHtml { display: block; font-size: 14px; line-height: 16px; padding: 15px 30px; border: 1px solid #cdcfd1; border-radius: 4px;
-    position: absolute; top: 0; right: 0;}
-  main.userCard .text dl dt { width: 10%;}
-  main.userCard .text dl dd { width: 36%;}
+    position: absolute; top: -1px; right: 0;}
+  main.userCard .text dl dt { width: 12%;}
+  main.userCard .text dl dd { width: 33%;}
 
   main.userCard .text img {display: block;}
   main.userCard .media #weixin{display: none;}
-  section.portfolio{margin-top: 60px;}
+  /*section.portfolio{margin-top: 60px;}*/
   section.message{display: none;}
 
   [data-x].offset { transform: translateY(0); }

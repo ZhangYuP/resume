@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df855d1e-02eb-4996-a70a-74cec0a4fff6" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/张玉鹏的个人简历.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/张玉鹏的个人简历.pdf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="112" column="57" lean-forward="true" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
+            <state relative-caret-position="175">
+              <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -35,18 +38,22 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/auto-slide-up.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="306" column="20" selection-start-line="306" selection-start-column="20" selection-end-line="306" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
               <folding>
                 <element signature="n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -56,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+            <state relative-caret-position="1220">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -74,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/smoothly-navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+            <state relative-caret-position="660">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -103,6 +110,7 @@
       <find>resume</find>
       <find>hover</find>
       <find>tip</find>
+      <find>preventDefault</find>
     </findStrings>
     <replaceStrings>
       <replace>portfolios</replace>
@@ -120,8 +128,8 @@
         <option value="$PROJECT_DIR$/js/sticky-topbar.js" />
         <option value="$PROJECT_DIR$/js/popover.js" />
         <option value="$PROJECT_DIR$/js/smoothly-navigation.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/message.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.css" />
       </list>
     </option>
@@ -132,7 +140,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -203,12 +211,15 @@
       <workItem from="1572944869132" duration="58849000" />
       <workItem from="1574661778534" duration="4875000" />
       <workItem from="1574673965002" duration="26362000" />
-      <workItem from="1574780929132" duration="11510000" />
+      <workItem from="1574780929132" duration="11708000" />
+      <workItem from="1574950131976" duration="1078000" />
+      <workItem from="1575356291002" duration="832000" />
+      <workItem from="1575358457276" duration="2961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106470000" />
+    <option name="totallyTimeSpent" value="111539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -231,7 +242,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.1668455" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.17328326" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,10 +254,24 @@
     <entry file="file://$PROJECT_DIR$/resume.gif" />
     <entry file="file://$PROJECT_DIR$/print.css" />
     <entry file="file://$PROJECT_DIR$/js/toPDF.js" />
-    <entry file="file://$PROJECT_DIR$/js/smoothly-navigation.js">
+    <entry file="file://$PROJECT_DIR$/js/sticky-topbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        <state relative-caret-position="320">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/auto-slide-up.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -257,40 +282,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/auto-slide-up.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/sticky-topbar.js">
+    <entry file="file://$PROJECT_DIR$/js/smoothly-navigation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="660">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="306" column="20" selection-start-line="306" selection-start-column="20" selection-end-line="306" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
           <folding>
             <element signature="n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="112" column="57" lean-forward="true" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
+        <state relative-caret-position="175">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
         </state>
       </provider>
     </entry>
