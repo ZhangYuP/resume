@@ -86,9 +86,17 @@
       }
     },
     saveMessage() {
+      const escapeHTML = str =>
+        str.replace(/[&<>'"]/g, tag => ({
+          '&': '&amp;',
+          '<': '&lt;',
+          '>': '&gt;',
+          "'": '&#39;',
+          '"': '&quot;'
+        }[tag] || tag))
       let myForm = this.form
-      let name = myForm.querySelector('input[name=name]').value
-      let content = myForm.querySelector('textarea').value
+      let name = escapeHTML(myForm.querySelector('input[name=name]').value)
+      let content = escapeHTML(myForm.querySelector('textarea').value)
       let warnings = myForm.getElementsByClassName('warning')
       if(!name.trim()){
         warnings[0].style.visibility = 'visible'
